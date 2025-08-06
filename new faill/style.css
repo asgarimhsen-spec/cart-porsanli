@@ -1,0 +1,26 @@
+.right{
+    width: 50%;
+    
+    
+}
+.left{
+    width: 50%;
+    
+}
+.p{
+    border-style: solid;
+    width: 23%;
+    border: none;
+    background-color: rgb(218, 218, 238);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 70px;
+}
+.b{
+    border: none;
+    border-radius:8px;
+    background-color: rgb(94, 94, 235);
+    margin-top: 20px;
+    padding: 10px;
+}
