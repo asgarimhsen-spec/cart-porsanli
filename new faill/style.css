@@ -4,7 +4,11 @@
     
 }
 .left{
-    width: 50%;
+    width: calc(50%-20%);
+    height: 500px;
+    margin-top: 60px;
+    padding-left: 20px;
+    float: left;
     
 }
 .p{
@@ -23,4 +27,61 @@
     background-color: rgb(94, 94, 235);
     margin-top: 20px;
     padding: 10px;
+    height: 40px;
+    float: left;
+    width: 150px;
+
+    
 }
+.s{ border: none;
+    border-radius:8px;
+    background-color: #eaf5f7;
+    float: left;
+    align-items: center;
+    
+    padding: 10px;
+    margin: 20px;
+    
+}
+.d1{
+float: left;
+}
+.nummber1{
+    margin-left: 19px;
+    font-size: 40px;
+    color: blue;
+    float: left;
+}
+.n1{
+    margin-left: 21px;
+    
+    
+}
+.nummber2{
+    margin-left: 50px;
+    font-size: 40px;
+    color: blue;
+}
+.d1{
+    float: left;
+}
+.d5{float: left;
+margin-top: 20px;
+}
+.d1{
+    float: left;}
+
+    .nummber3{
+    font-size: 40px;
+    color:blue;
+}
+.d1{
+    float: left;
+    
+    
+}
+    
+
+
+
+    
