@@ -1,10 +1,14 @@
 .right{
     width: 50%;
-    
-    
+    float: right;
+}
+.img{
+    height: 350px;
+    float: right;
+    margin-top:25px;
 }
 .left{
-    width: calc(50%-20%);
+    width: 500px;
     height: 500px;
     margin-top: 60px;
     padding-left: 20px;
@@ -51,24 +55,29 @@ float: left;
     font-size: 40px;
     color: blue;
     float: left;
+    text-align: center;
+}
+.nn2{
+    margin-left: 21px;
 }
 .n1{
-    margin-left: 21px;
-    
-    
+    float: left;
 }
 .nummber2{
     margin-left: 50px;
     font-size: 40px;
     color: blue;
 }
-.d1{
+.d2{
     float: left;
 }
 .d5{float: left;
-margin-top: 20px;
 }
-.d1{
+.d5{
+    float: left;
+    margin-top: 80px;
+}
+.d3{
     float: left;}
 
     .nummber3{
@@ -77,10 +86,13 @@ margin-top: 20px;
 }
 .d1{
     float: left;
-    
-    
 }
-    
+    .n3{
+        font-weight: bold;
+        float: left;
+        margin-top: 5px;
+        text-align: center;
+    }
 
 
 
