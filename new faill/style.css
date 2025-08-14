@@ -1,33 +1,87 @@
-.right{
+.right {
     width: 50%;
     float: right;
 }
-.img{
+
+.right .img {
     height: 350px;
     float: right;
-    margin-top:25px;
+    margin-top: 25px;
 }
-.left{
-    width: 500px;
-    height: 500px;
-    margin-top: 60px;
+
+
+.left {
+    width: calc(50% - 20px);
     padding-left: 20px;
     float: left;
-    
 }
-.p{
+
+.left .Welcome {
     border-style: solid;
     width: 23%;
     border: none;
     background-color: rgb(218, 218, 238);
     border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 70px;
+    padding: 10px ;
 }
-.b{
+
+.left .description {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.left .buttons button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
     border: none;
-    border-radius:8px;
+}
+
+.left .buttons .left-btn {
+    background-color: #1e70a7;
+    color: #fff;
+}
+.left .buttons .right-btn {
+    background-color: #ffffff;
+    color: #423f3f;
+    border: 1px solid #423f3f;
+    margin-left: 10px;
+}
+
+.stats{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 50%;
+}
+
+.stats .col{
+text-align: center;
+}
+
+.stats .col .number{
+    color: #430c8a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stats .col .text{
+    color: #302e2e;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+.b {
+    border: none;
+    border-radius: 8px;
     background-color: rgb(94, 94, 235);
     margin-top: 20px;
     padding: 10px;
@@ -35,65 +89,76 @@
     float: left;
     width: 150px;
 
-    
+
 }
-.s{ border: none;
-    border-radius:8px;
+
+.s {
+    border: none;
+    border-radius: 8px;
     background-color: #eaf5f7;
     float: left;
     align-items: center;
-    
+
     padding: 10px;
     margin: 20px;
-    
+
 }
-.d1{
-float: left;
+
+.d1 {
+    float: left;
 }
-.nummber1{
+
+.nummber1 {
     margin-left: 19px;
     font-size: 40px;
     color: blue;
     float: left;
     text-align: center;
 }
-.nn2{
+
+.nn2 {
     margin-left: 21px;
 }
-.n1{
+
+.n1 {
     float: left;
 }
-.nummber2{
+
+.nummber2 {
     margin-left: 50px;
     font-size: 40px;
     color: blue;
 }
-.d2{
+
+.d2 {
     float: left;
 }
-.d5{float: left;
+
+.d5 {
+    float: left;
 }
-.d5{
+
+.d5 {
     float: left;
     margin-top: 80px;
 }
-.d3{
-    float: left;}
 
-    .nummber3{
-    font-size: 40px;
-    color:blue;
-}
-.d1{
+.d3 {
     float: left;
 }
-    .n3{
-        font-weight: bold;
-        float: left;
-        margin-top: 5px;
-        text-align: center;
-    }
 
+.nummber3 {
+    font-size: 40px;
+    color: blue;
+}
 
+.d1 {
+    float: left;
+}
 
-    
+.n3 {
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+}
